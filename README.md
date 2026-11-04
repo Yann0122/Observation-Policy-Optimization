@@ -2,7 +2,7 @@
 
 Official repository for **Learning Where to Look: Observation Policy Optimization for Thinking with Images** (NeurIPS 2026).
 
-[🤗 Model](https://huggingface.co/Yann0122/OPO-8B) · [🤗 Training Data](https://huggingface.co/datasets/ChenShawn/DeepEyes-Datasets-47k)
+[📄 Paper](https://arxiv.org/abs/2611.04943) · [🤗 Model](https://huggingface.co/Yann0122/OPO-8B) · [🤗 Training Data](https://huggingface.co/datasets/ChenShawn/DeepEyes-Datasets-47k)
 
 ## Code Release
 
@@ -20,11 +20,14 @@ OPO learns where to look when reasoning with images through two components:
 ## Citation
 
 ```bibtex
-@inproceedings{wang2026opo,
+@misc{wang2026opo,
   title={Learning Where to Look: Observation Policy Optimization for Thinking with Images},
   author={Wang, Junfeng and Liu, Jiawei and Xu, Yongchao and Jiang, Tao and Ai, Jiangbo and Zhang, Jin and Wang, Chong and Zhang, Qixing},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2026}
+  year={2026},
+  eprint={2611.04943},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2611.04943}
 }
 ```
 
